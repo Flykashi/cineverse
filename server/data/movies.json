@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "title": "The Grand Adventure",
+    "director": "A. Director",
+    "year": 2024,
+    "genre": "Adventure"
+  },
+  {
+    "id": "2",
+    "title": "Cineverse Origins",
+    "director": "B. Filmmaker",
+    "year": 2025,
+    "genre": "Drama"
+  },
+  {
+    "id": "1781762566807",
+    "title": "Dhurandhar",
+    "director": "Aditya Dhar",
+    "year": 2023,
+    "genre": "Action"
+  }
+]
