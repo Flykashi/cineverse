@@ -10,16 +10,13 @@ A beginner-friendly full stack movie catalog project with React and Express.
 
 ## Local setup
 
-1. From the repo root, install dependencies:
-   - `npm install`
-2. Run both services in development:
+1. From the repo root, install backend dependencies:
+   - `cd server && npm install`
+2. Start the app:
    - `npm run dev`
-3. Open the frontend URL shown by Vite in your browser.
+3. Open `http://localhost:5000` in your browser.
 
-### Start services separately
-
-- Frontend only: `npm run client`
-- Backend only: `npm run server`
+> The frontend is now plain static HTML/JavaScript and is served by the Express backend. There is no Vite build step.
 
 ## Backend API
 

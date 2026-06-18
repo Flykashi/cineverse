@@ -4,9 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cineverse</title>
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="app-shell">
+      <header>
+        <h1>Cineverse</h1>
+        <p>Simple full-stack movie catalog with Express backend.</p>
+      </header>
+
+      <section class="form-card">
+        <h2>Add a New Movie</h2>
+        <form id="movie-form">
+          <div class="form-row">
+            <label>
+              Title
+              <input id="title" name="title" placeholder="Movie title" />
+            </label>
+            <label>
+              Director
+              <input id="director" name="director" placeholder="Director name" />
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              Year
+              <input id="year" name="year" placeholder="2025" type="number" />
+            </label>
+            <label>
+              Genre
+              <input id="genre" name="genre" placeholder="Genre" />
+            </label>
+          </div>
+          <button type="submit" class="primary-button">Add Movie</button>
+        </form>
+        <p id="submit-message" class="status-message status-success"></p>
+      </section>
+
+      <main>
+        <p id="status-message" class="status-message">Loading movies...</p>
+        <div id="movie-grid" class="movie-grid"></div>
+      </main>
+
+      <footer>
+        <p>Simple full-stack project served by Express.</p>
+      </footer>
+    </div>
+
+    <script src="main.js"></script>
   </body>
 </html>

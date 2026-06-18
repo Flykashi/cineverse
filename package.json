@@ -3,13 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "client": "cd client && npm run dev",
-    "server": "cd server && npm run dev",
-    "dev": "npx concurrently \"npm run server\" \"npm run client\"",
-    "build": "npm install --prefix client && npm run build --prefix client",
-    "vercel-build": "npm install --prefix client && npm run build --prefix client"
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.0"
+    "start": "cd server && npm start",
+    "dev": "cd server && npm run dev"
   }
 }
